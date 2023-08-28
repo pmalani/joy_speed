@@ -91,7 +91,7 @@ Fast, but wrong!
   * JDK
   * Native code
     * ![img_6.png](img_6.png)
-* Flame Graphs can be **diff**
+* Flame Graphs can be **diff**ed
   * ![img_7.png](img_7.png)
 
 ### Flame Graphs Supported In
