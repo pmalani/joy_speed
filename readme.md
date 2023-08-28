@@ -46,9 +46,9 @@ Fast, but wrong!
 ## Measure Using?
 * Manual
     * Using stop watch, logs (custom, using profiling aspects), log aggregation
-![img_8.png](img_8.png)
+      * ![img_8.png](img_8.png)
     * Thread dumps (kill -3, JConsole, IDE)
-![img_9.png](img_9.png)
+      * ![img_9.png](img_9.png)
 * Automatic (using tools)
   * Code instrumentation and Agents
   * Example tools:
@@ -59,20 +59,20 @@ Fast, but wrong!
 
 ## Visualize
 * Call trees
-![img_4.png](img_4.png)
+  * ![img_4.png](img_4.png)
 * Flame Graphs
-![img_2.png](img_2.png)
+  * ![img_2.png](img_2.png)
 * Icicle Graphs
   * Inverted Flame Graph
-![img_3.png](img_3.png)
+    * ![img_3.png](img_3.png)
 * Histograms
-![img_11.png](img_11.png)
-![img_12.png](img_12.png)
+  * ![img_11.png](img_11.png)
+  * ![img_12.png](img_12.png)
 * Pie Charts
   * Sunbursts
-![img_13.png](img_13.png)
+    * ![img_13.png](img_13.png)
 * Timeline
-![img_10.png](img_10.png)
+  * ![img_10.png](img_10.png)
 
 ---
 
@@ -90,16 +90,14 @@ Fast, but wrong!
   * User code
   * JDK
   * Native code
-![img_6.png](img_6.png)
+    * ![img_6.png](img_6.png)
 * Flame Graphs can be **diff**
-![img_7.png](img_7.png)
+  * ![img_7.png](img_7.png)
 
 ### Flame Graphs Supported In
 * IDE
 * APM (e.g. Datadog)
 * Framework (e.g. Apache Flink)
-
-#### Memory Allocation Icicle Graph (Same as Above)
 
 ---
 
@@ -109,7 +107,7 @@ Fast, but wrong!
 * Knowing and understanding the limitations of technology / methodology (e.g. in Java stack traces may be captured at safe-points)
 * Knowing and understanding the environment (e.g. in Java you may be only looking at the view of the world via the JVM)
   * Enable more settings to get complete picture
-  ![img_5.png](img_5.png)
+    * ![img_5.png](img_5.png)
 * Distributed systems
   * Microservices based architecture
   * Working with 10s or 100s or more of VMs
@@ -123,8 +121,8 @@ Fast, but wrong!
   * Take few quick thread-dumps
 * Why is CPU pegged?
   * Check if application is (major) GCing like crazy (the saw teeth pattern)
-  ![img.png](img.png)
-  ![img_1.png](img_1.png)
+    * ![img.png](img.png)
+    * ![img_1.png](img_1.png)
 * Have a problem but don't know where to start; are not familiar with code-base
   * Start by taking some profiles (cpu, memory)
 
